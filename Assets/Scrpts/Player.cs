@@ -97,6 +97,8 @@ public class Player : MonoBehaviour
        onGround = Physics2D.OverlapCircle(groundCheck.position, checkRadius, Ground);
        anim.SetBool("onGround", onGround);
    }
-   
 
+
+   
+   
 }
